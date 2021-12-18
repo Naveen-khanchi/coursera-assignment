@@ -1,0 +1,85 @@
+body{
+    font-family: cursive;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.jumbotron{
+    margin-top: 60px;
+    padding: 1px;
+    background-color: rgb(170, 170, 170);
+    color: black;
+}
+
+h1, h3{
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 77px;
+}
+
+.navbar-brand h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+}
+
+@media (max-width:767px) {
+
+    .navbar-collapse li:nth-child(2) , li:nth-child(3){
+        border-top: 2px solid black;
+    }
+
+    .navbar-default .navbar-collapse{
+        border: 2px solid black;
+    }
+
+    .container-fluid .jumbotron{
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    
+}
+
+.navbar-header button.navbar-toggle{
+    border: 1px solid black;
+    height: 50px;
+    padding: 0px 4px;
+    width: 50px;
+    background-color: gray;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: black;
+    height: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 40px;
+}
+
+.navbar{
+    border: 3px solid black;
+    border-radius: 0px;
+    background-color: rgb(170, 170, 170);
+}
+
+.container-fluid .jumbotron{
+    border-radius: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin:0px -15px;
+}
